@@ -1,0 +1,186 @@
+<spotyking>
+    <artistas>
+        <artista>
+            <id>0</id>
+            <nombre>Five Finger Death Punch</nombre>
+        </artista>
+        <artista>
+            <id>1</id>
+            <nombre>Faraon Love Shady</nombre>
+        </artista>
+        <artista>
+            <id>2</id>
+            <nombre>Eminem</nombre>
+        </artista>
+        <artista>
+            <id>3</id>
+            <nombre>Juice WRLD</nombre>
+        </artista>
+        <artista>
+            <id>4</id>
+            <nombre>Michael Jackson</nombre>
+        </artista>
+        <artista>
+            <id>5</id>
+            <nombre>Twenty One Pilots</nombre>
+        </artista>
+        <artista>
+            <id>6</id>
+            <nombre>Coolio</nombre>
+        </artista>
+    </artistas>
+    <canciones_sistema>
+        <cancion genero="metal">
+            <id>0</id>
+            <titulo>Inside Out</titulo>
+            <ruta_archivo>../canciones/metal/InsideOut.mp3</ruta_archivo>
+            <artistas>
+                <artista id="0">Five Finger Death Punch</artista>
+            </artistas>
+            <duracion minutos="3" segundos="46"/>
+            <total_reproducciones>3897</total_reproducciones>
+        </cancion>
+        <cancion genero="metal">
+            <id>1</id>
+            <titulo>House of the Rising Sung</titulo>
+            <ruta_archivo>../canciones/metal/HouseOfTheRisingSun.mp3</ruta_archivo>
+            <artistas>
+                <artista id="0">Five Finger Death Punch</artista>
+            </artistas>
+            <duracion minutos="4" segundos="07"/>
+            <total_reproducciones>5213</total_reproducciones>
+        </cancion>
+        <cancion genero="rap">
+            <id>2</id>
+            <titulo>The Real Slim Shady</titulo>
+            <ruta_archivo>../canciones/rap/TheRealSlimShady.mp3</ruta_archivo>
+            <artistas>
+                <artista id="2">Eminem</artista>
+            </artistas>
+            <duracion minutos="4" segundos="44"/>
+            <total_reproducciones>9172</total_reproducciones>
+        </cancion>
+        <cancion genero="Faraon Love Shady">
+            <id>3</id>
+            <titulo>I am happy</titulo>
+            <ruta_archivo>../canciones/faraonShady/IamHappy.mp3</ruta_archivo>
+            <artistas>
+                <artista id="1">Faraon Love Shady</artista>
+            </artistas>
+            <duracion minutos="2" segundos="15"/>
+            <total_reproducciones>9028</total_reproducciones>
+        </cancion>
+        <cancion genero="rap">
+            <id>4</id>
+            <titulo>Godzilla</titulo>
+            <ruta_archivo>../canciones/rap/Godzilla.mp3</ruta_archivo>
+            <artistas>
+                <artista id="2">Eminem</artista>
+                <artista id="3">Juice WRLD</artista>
+            </artistas>
+            <duracion minutos="3" segundos="31"/>
+            <total_reproducciones>6523</total_reproducciones>
+        </cancion>
+        <cancion genero="pop">
+            <id>5</id>
+            <titulo>Billie Jean</titulo>
+            <ruta_archivo>../canciones/pop/BillieJean.mp3</ruta_archivo>
+            <artistas>
+                <artista id="4">Michael Jackson</artista>
+            </artistas>
+            <duracion minutos="4" segundos="53"/>
+            <total_reproducciones>12559</total_reproducciones>
+        </cancion>
+        <cancion genero="pop">
+            <id>6</id>
+            <titulo>Beat it</titulo>
+            <ruta_archivo>../canciones/pop/BeatIt.mp3</ruta_archivo>
+            <artistas>
+                <artista id="4">Michael Jackson</artista>
+            </artistas>
+            <duracion minutos="4" segundos="18"/>
+            <total_reproducciones>12559</total_reproducciones>
+        </cancion>
+        <cancion genero="pop">
+            <id>7</id>
+            <titulo>Stressed Out</titulo>
+            <ruta_archivo>../canciones/pop/StressedOut.mp3</ruta_archivo>
+            <artistas>
+                <artista id="5">Twenty One Pilots</artista>
+            </artistas>
+            <duracion minutos="3" segundos="22"/>
+            <total_reproducciones>4982</total_reproducciones>
+        </cancion>
+        <cancion genero="rap">
+            <id>8</id>
+            <titulo>Gangstas Paradise</titulo>
+            <ruta_archivo>../canciones/rap/GangstasParadise.mp3</ruta_archivo>
+            <artistas>
+                <artista id="6">Coolio</artista>
+            </artistas>
+            <duracion minutos="4" segundos="00"/>
+            <total_reproducciones>6543</total_reproducciones>
+        </cancion>
+    </canciones_sistema>
+    <usuarios_sistema>
+    <usuario rol="comun">
+        <id>0</id>
+        <login>delegado</login>
+        <password>quecaloh12</password>
+        <canciones_favoritas>
+            <cancion id="0">Inside Out</cancion>
+            <cancion id="1">House of the Rising Sun</cancion>
+            <cancion id="2">The Real Slim Shady</cancion>
+            <cancion id="7">Stressed Out</cancion>
+        </canciones_favoritas>
+    </usuario>
+    <usuario rol="comun">
+        <id>1</id>
+        <login>tifurz</login>
+        <password>elyayo</password>
+        <canciones_favoritas>
+            <cancion id="3">I am happy</cancion>
+            <cancion id="5">Billie Jean</cancion>
+        </canciones_favoritas>
+    </usuario>
+    <usuario rol="admin">
+        <id>2</id>
+        <login>Neozizou</login>
+        <password>Mbappealmadrid</password>
+    </usuario>
+    </usuarios_sistema>
+    <playlist_sistema>
+        <playlist>
+            <usuario id="0">delegado</usuario>
+            <nombre>Metal-FFDP</nombre>
+            <canciones>
+                <cancion id="0">Inside Out</cancion>
+                <cancion id="1">House of the Rising Sun</cancion>
+            </canciones>
+        </playlist>
+        <playlist>
+            <usuario id="0">delegado</usuario>
+            <nombre>Rap</nombre>
+            <canciones>
+                <cancion id="2">The Real Slim Shady</cancion>
+            </canciones>
+        </playlist>
+        <playlist>
+            <usuario id="0">delegado</usuario>
+            <nombre>Twenty One Pilots</nombre>
+            <canciones>
+                <cancion id="7">Stressed Out</cancion>
+            </canciones>
+        </playlist>
+        <playlist>
+            <usuario id="1">tifurz</usuario>
+            <nombre>Pop</nombre>
+            <canciones>
+                <cancion id="5">Billie Jean</cancion>
+                <cancion id="7">Stressed Out</cancion>
+                <cancion id="6">Beat it</cancion>
+                <cancion id="8">Gangstas Paradise</cancion>
+            </canciones>
+        </playlist>
+    </playlist_sistema>
+</spotyking>
